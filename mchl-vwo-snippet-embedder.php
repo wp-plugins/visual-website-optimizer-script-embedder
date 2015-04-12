@@ -8,18 +8,8 @@
 	Author URI: http://michaelkjeldsen.com/
 	Text Domain: mchl-vwo-snippet-embedder
 
-	RELEASE NOTES
-	---------------------------------------
-	1.1.2 - Refactored code
-	1.1.1 - Added "Create account" link
-	1.1.0 - I18n Ready
-	1.0.1 - Now with 100 % more input fields (for, like, you know,
-			this plugin to actually make sense)
-	1.0.0 - A Working Release
-
 	FEATURE WISH LIST
 	---------------------------------------
-	* "No account_id added too settings page" admin error
 	* Allow user to change advanced seettings (tolerances, use_existing_jquery)
 	* API-connect to select Project
 	* API-connect to get test results
@@ -92,6 +82,20 @@
 				{
 					$mchl_vwo_account_id = get_option('mchl_vwo_account_id');
 					return '<span class="mchl_vwo_account_id">' . $mchl_vwo_account_id . '</span>';
+				}
+
+			// Add nagging error-message in admin, until the user add their Project Snipper ID in the plugin settings
+			add_action( 'admin_notices', 'no_vwo_account_id_admin_notice' );
+			function no_vwo_account_id_admin_notice()
+				{
+					if ( !get_option('mchl_optimizely_data') )
+						{
+							?>
+							<div class="update-nag">
+								<p><?php _e( 'Please provide your Visual Website Optimizer Account ID in the <a href="tools.php?page=mchl-vwo-snippet-embedder-snippet-embedder">plugin settings</a>.', 'mchl-vwo-snippet-embedder' ); ?></p>
+							</div>
+							<?php
+						}
 				}
 
 			// SaveAdmin

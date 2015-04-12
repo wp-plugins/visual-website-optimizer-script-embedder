@@ -36,6 +36,9 @@ Yes it is - absolutely free! (But unfortunately VWO itself might cost you a few 
 
 == Changelog ==
 
+= 1.1.3 =
+* Added nagging error message if no Visual Website Optimizer Account ID has been provided on plugin settings page.
+
 = 1.1.2 =
 * Heavy refactoring of code.
 * Minor bugfixes
@@ -56,6 +59,9 @@ Yes it is - absolutely free! (But unfortunately VWO itself might cost you a few 
 * A Working Release. If you're still running 0.x.x you should most definitely upgrade!
 
 == Upgrade Notice ==
+
+= 1.1.3 =
+Added nagging error message if no Visual Website Optimizer Account ID has been provided on plugin settings page.
 
 = 1.1.2 =
 Refactoring of code and performance upgrades.

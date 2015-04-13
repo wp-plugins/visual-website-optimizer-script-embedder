@@ -131,7 +131,7 @@
 				{
 					$output = '
 						<div class="wrap">
-							div id="icon-themes" class="icon32"><br></div>
+							<div id="icon-themes" class="icon32"><br></div>
 							<h2>Visual Website Optimizer Snippet Embedder&trade; <small>' . __( 'by', 'mchl-vwo-snippet-embedder' ) . ' Michael Kjeldsen</small></h2>';
 
 							if ( isset($_GET['settings-updated']) )

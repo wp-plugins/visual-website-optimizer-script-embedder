@@ -4,7 +4,7 @@
 	Plugin URI: http://michaelkjeldsen.com/vwo-embedder/
 	Description: Easily add the Visual Website Optimizer script on your website.
 	Author: Michael Kjeldsen
-	Version: trunk
+	Version: 1.1.5
 	Author URI: http://michaelkjeldsen.com/
 	Text Domain: mchl-vwo-snippet-embedder
 
@@ -16,7 +16,7 @@
 	* API-to-Dashboard to showcase running test(s)
 */
 
-	define( 'MCHL_VWOSE_VERSION', 'trunk' );
+	define( 'MCHL_VWOSE_VERSION', '1.1.5' );
 
 	if ( !is_admin() )
 		{
@@ -92,7 +92,7 @@
 						{
 							?>
 							<div class="update-nag">
-								<p><?php _e( 'Please provide your Visual Website Optimizer Account ID in the <a href="tools.php?page=mchl-vwo-snippet-embedder-snippet-embedder">plugin settings</a>.', 'mchl-vwo-snippet-embedder' ); ?></p>
+								<p><?php _e( 'Please provide your Visual Website Optimizer Account ID in the <a href="tools.php?page=mchl-vwo-snippet-embedder">plugin settings</a>.', 'mchl-vwo-snippet-embedder' ); ?></p>
 							</div>
 							<?php
 						}

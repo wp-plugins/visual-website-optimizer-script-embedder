@@ -3,8 +3,8 @@ Contributors: michaelkjeldsen
 Donate link: http://michaelkjeldsen.com/donate-vwo/
 Tags: splittest,vwo,visual website optimizer
 Requires at least: 3.0.1
-Tested up to: 4.1.2
-Stable tag: 1.1.4
+Tested up to: 4.2.2
+Stable tag: 1.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,9 @@ Yes it is - absolutely free! (But unfortunately VWO itself might cost you a few 
 
 == Changelog ==
 
+= 1.1.5 =
+* Fixed a bug making it fairly hard for some users to access the plugin settings screen.
+
 = 1.1.4 =
 * Bugfixes
 
@@ -62,6 +65,9 @@ Yes it is - absolutely free! (But unfortunately VWO itself might cost you a few 
 * A Working Release. If you're still running 0.x.x you should most definitely upgrade!
 
 == Upgrade Notice ==
+
+= 1.1.5 =
+This upgrade fixes a bug that made it impossible for some users to access the plugin settings page.
 
 = 1.1.4 =
 Fixed some bugs that was introduced in 1.1.3.
